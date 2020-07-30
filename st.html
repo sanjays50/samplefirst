@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            --color:blue;
+            width: 300px;
+            height: 250px;
+            background-color: var(--color);
+            position: relative;
+            transition-property:all;
+            transition-duration: 4s;
+            transition-timing-function: ease-in-out;
+
+        }
+        .div:hover{
+            width: 1200px;
+            height: 600px;
+            background-color: chartreuse;
+            border-radius: 400px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+</body>
+</html>

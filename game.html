@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upoming</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            /* background: url('1.jpg'); */
+        }
+        .header{
+            border: 2px solid white;
+            padding: 15px 25px;
+            
+        }
+        .header span a{
+            text-decoration: none;
+            color: rgb(221, 201, 25);
+            font-family:fantasy;
+
+            margin-top: 40px;
+        }
+        .container{
+            display: flex;
+            border: 2px solid red;
+            flex-direction:column;
+        }
+        .container div{
+            height: 560px;
+        }
+        #box1{
+            background: url('3.jpg');
+            background-size: 100% 100%;
+        }
+        #box2{
+            background: url('4.jpg');
+            background-size: 100% 100%;
+        }
+        #box3{
+            background: url('5.jpg');
+            background-size: 100% 100%;
+        }
+        #box4{
+            background: url('6.jpg');
+            background-size: 100% 100%;
+        }
+        .name{
+            display:inline-block ;
+            position: relative;
+            margin: 30px 610px;
+            color: rgb(235, 103, 42);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .button{
+            background-color: #b18f5c6e;
+            color: rgba(180, 8, 45, 0.699);
+            border: 2px solid #ffb100;
+            margin: 390px 568px;
+            font-size: 25px;
+            width: 194px;
+            height: 38px;
+            border-radius: 22px;
+            position: relative;
+        }
+        .button a{
+            text-decoration: none;
+        }
+        .date{ 
+            
+            margin:615px;
+            color: white;
+            font-size: 15px;
+            position: relative;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <span><a href="#">Back</a></span>
+    </header>
+    <div class="container">
+        <div id="box1">
+            <span class="name">RUSH HOUR</span>
+            <span class="date">17 Mar 2021</span>
+            <button class="button"><a href="#">View trailer</a></button>
+        </div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+    </div>
+</body>
+</html>
